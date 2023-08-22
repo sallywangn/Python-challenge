@@ -64,6 +64,7 @@ output =(
     f"Greatest Increase in Profits: {max_increase_date} (${max_increase})\n"
     f"Greatest Decrease in Profits: {max_decrease_date} (${max_decrease})")
 
+print(output)
 
 with open(file_to_output,"w") as txt_file:
     txt_file.write(output)
